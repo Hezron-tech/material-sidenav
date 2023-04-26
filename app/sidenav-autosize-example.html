@@ -46,7 +46,9 @@
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
         <span class="full-width" *ngIf="isExpanded || isShowing">Reports</span>
-        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing"
+          >assessment</mat-icon
+        >
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
@@ -67,7 +69,9 @@
         <span class="full-width" *ngIf="isExpanded || isShowing"
           >Administration</span
         >
-        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing"
+          >group_work</mat-icon
+        >
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
@@ -88,7 +92,9 @@
         <span class="full-width" *ngIf="isExpanded || isShowing"
           >Card issuance</span
         >
-        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing"
+          >accessibility</mat-icon
+        >
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
