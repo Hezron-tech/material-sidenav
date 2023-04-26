@@ -23,6 +23,7 @@
         >
         <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
       </mat-list-item>
+      <mat-divider></mat-divider>
     </mat-nav-list>
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
@@ -42,6 +43,7 @@
       >
         <a mat-list-item href="...">Masters</a>
       </div>
+      <mat-divider></mat-divider>
     </mat-nav-list>
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
@@ -63,6 +65,7 @@
       >
         <a mat-list-item href="...">Masters</a>
       </div>
+      <mat-divider></mat-divider>
     </mat-nav-list>
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
@@ -86,6 +89,7 @@
       >
         <a mat-list-item href="...">Masters</a>
       </div>
+      <mat-divider></mat-divider>
     </mat-nav-list>
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
@@ -101,6 +105,7 @@
           *ngIf="isExpanded || isShowing"
           >expand_more</mat-icon
         >
+        <mat-divider></mat-divider>
       </mat-list-item>
       <div
         class="submenu"
@@ -111,9 +116,7 @@
     <mat-nav-list> </mat-nav-list>
   </mat-sidenav>
 
-  <div class="example-sidenav-content">M
-		
-		ain content that resizes properly</div>
+  <div class="example-sidenav-content">M ain content that resizes properly</div>
 </mat-sidenav-container>
 
 <!-- Copyright 2017 Google Inc. All Rights Reserved.
