@@ -21,13 +21,13 @@
         <span class="full-width" *ngIf="isExpanded || isShowing"
           >Dashboard</span
         >
-        <mat-icon mat-list-icon>home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
       </mat-list-item>
     </mat-nav-list>
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
         <span class="full-width" *ngIf="isExpanded || isShowing">Masters</span>
-        <mat-icon mat-list-icon>home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
@@ -46,7 +46,7 @@
     <mat-nav-list>
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
         <span class="full-width" *ngIf="isExpanded || isShowing">Reports</span>
-        <mat-icon mat-list-icon>home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
@@ -67,7 +67,7 @@
         <span class="full-width" *ngIf="isExpanded || isShowing"
           >Administration</span
         >
-        <mat-icon mat-list-icon>home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"
@@ -88,7 +88,7 @@
         <span class="full-width" *ngIf="isExpanded || isShowing"
           >Card issuance</span
         >
-        <mat-icon mat-list-icon>home</mat-icon>
+        <mat-icon mat-list-icon *ngIf="isExpanded || isShowing">home</mat-icon>
         <mat-icon
           class="menu-button"
           [ngClass]="{'rotated' : showSubmenu}"

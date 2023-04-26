@@ -14,7 +14,7 @@ export class SidenavAutosizeExample {
   isExpanded = true;
   showSubmenu: boolean = false;
   isShowing = false;
-  showSubSubMenu: boolean = false;
+  
 
   // mouseenter() {
   //   if (!this.isExpanded) {
@@ -28,7 +28,6 @@ export class SidenavAutosizeExample {
   //   }
   // }
 }
-
 
 /**  Copyright 2017 Google Inc. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that
